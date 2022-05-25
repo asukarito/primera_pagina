@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Tarea Formulario</title>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Nathy Peluso</h1>
+    <br><br>
+    <img alt="Nathy Peluso" src="imagenes/nathy-peluso.jpg" width="300" height="300">
+    <p>Nathy Peluso nació el 12 de enero de 1995 en la ciudad de Buenos Aires</p>
+    <p> Fue la primera hija del matrimonio conformado por Hernán Peluso, un psicólogo, y su madre, una profesora de
+      inglés.</p>
+    <br><br>
+    <h1>DISCOGRAFÍA</h1>
+    <br><br>
+    <table>
+      <tr>
+        <th>Disco</th>
+        <th>Fecha</th>
+      </tr>
+      <tr>
+        <td>Calambre</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>Mafiosa</th>
+        <th>2022</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <a href="https://instagram.com/nathypeluso" />
+    <a href="https://instagram.com/nathypeluso">@nathypeluso</a>
+    <h1>Contesta la siguiente encuesta:</h1>
+    <br>
+    <br>
+    <h3>
+      <p>¿Te gustaría pertenecer al club de fans?</p>
+    </h3>
+
+    <form action="/action_page.php">
+        <input type="radio" name="esTuFavortita" value="si">
+        <label for="si">si</label><br>
+        <input type="radio" name="esTuFavortita" value="no">
+        <label for="no">no</label><br>
+        <input type="radio" name="esTuFavortita" value="ni si quiera se quien es">
+        <label for="ni si quiera se quien es">ni si quiera se quien es</label><br><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
